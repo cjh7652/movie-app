@@ -4,6 +4,7 @@ import Home from './routes/Home';
 import About from './routes/About';
 import Movies from './routes/Movies';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 import './App.scss';
 
 function App() {
@@ -13,9 +14,11 @@ function App() {
 			<Navbar />
 			<Routes>
 				<Route path="/" element={<Home />} />
-				<Route path="/about:id" element={<About />} />
+				
 				<Route path="/movies" element={<Movies />} />
+				<Route path="/about/:id" element={<About />} />
 			</Routes>
+			<Footer />
 		</div>
 	);
 }
