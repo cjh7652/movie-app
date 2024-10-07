@@ -6,6 +6,7 @@ import Movies from './routes/Movies';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import './App.scss';
+import Users from './routes/Users';
 
 function App() {
 	
@@ -17,6 +18,7 @@ function App() {
 				
 				<Route path="/movies" element={<Movies />} />
 				<Route path="/about/:id" element={<About />} />
+				<Route path="/users" element={<Users />} />
 			</Routes>
 			<Footer />
 		</div>
