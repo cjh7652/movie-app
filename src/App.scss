@@ -133,4 +133,108 @@ nav{
 	h1{
 		text-align: center;
 	}
+	.userCard{
+		width: 100%;
+		max-width: 1000px;
+		margin:20px auto;
+		padding: 0 30px;
+		box-sizing: border-box;
+		.card{
+			background: #eee;
+			padding: 30px;
+			margin-bottom: 20px;
+			border-radius: 20px 0 20px 0;
+			box-shadow: 0 0 30px #000;
+			.cardBady{font-size: 1.2rem;
+				a{
+					text-decoration: none;
+					color: #666;
+				}
+			}
+		}
+	}
+}
+.userWrap{
+	margin-top: 150px;
+	margin-bottom: 150px;
+	padding: 0 30px 100px 30px;
+	box-sizing: border-box;
+	h1{
+		margin-bottom: 50px;
+	}
+	.detail{
+		padding: 50px;
+		box-sizing: border-box;
+		box-shadow: 0 0 30px #000;
+		.loading{font-size: 1.6rem;}
+		.userDetail{
+			p{
+				line-height: 300%;
+				span{
+					color: #666;
+					padding-right: 20px;
+				}
+			}
+		}
+	}
+}
+.eventsWrap{
+	padding: 150px 30px;
+	box-sizing: border-box;
+	width: 100%;
+	max-width: 1000px; 
+	margin: 0 auto;
+	
+	h2{
+		padding-bottom: 10px;
+		border-bottom: 1px solid #444;
+	}
+	h3{padding: 20px 0 0 0;}
+	.eventlistWrap{
+		margin-top: 10px;
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		.appEvent{
+			width: 32%;
+			.eventlist{
+				.eventImg{
+					img{width: 100%}
+				}
+				.eventDate{
+					font-size: 0.8rem;
+					color: #666;
+				}
+			}
+		}
+		
+	}
+	img{width: 100%; margin-top: 50px;}
+}
+.bannerWrap{
+	width: 100%;
+	background: #006cff;
+	position: relative;
+	height: 240px;
+
+	img{
+		position: absolute;
+		top: -18.5%;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+}
+.eventWrap{
+	padding: 150px 30px;
+	box-sizing: border-box;
+
+	.addEvent{
+		.box{
+			width: 100%;
+			img{
+				width: 100%;
+				margin-bottom: 30px;
+			}
+		}
+	}
 }
